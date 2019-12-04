@@ -12,7 +12,7 @@ body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: #FFE599
 }
 
 h1, h2, h3
@@ -681,12 +681,12 @@ ul.contact li a.icon-rss:before
 	color: #FFF;
 }
 
-.column1,  .column2,  .column3,  .column4
+.column1,  .column2,  .column3,
 {
 	width: 282px;
 }
 
-.column1,  .column2
+.column1,  .column2   .column3,
 {
 	float: left;
 	margin-right: 24px;
@@ -694,13 +694,9 @@ ul.contact li a.icon-rss:before
 
 .column3
 {
-	float: left;
+	float:center;
 }
 
-.column4
-{
-	float: right;
-}
 
 
 	#header-featured
@@ -901,8 +897,8 @@ ul.contact li a.icon-rss:before
 	display: block;
 	padding-top: 0.20em;
 	text-transform: uppercase;
-	font-size: 1.2em;
-	color: #A2A2A2;
+	font-size: 1.5em;
+	color: #a2a2a2;
 }
 
 
